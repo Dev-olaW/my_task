@@ -14,3 +14,5 @@ while True :
     else:
         voters_name.add(name)
         print(f"{name} registered succesfully.")
+
+print(f"\nTotal unique voters required: {len(voters_name)}")
